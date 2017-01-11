@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 开启驼峰式命名，自动映射数据库中例如user_name这种字段名 -->
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+	</settings>
+
+	<!-- 设置别名定义 -->
+	<typeAliases>
+		<!-- 针对单个别名定义 type:类型的路径 alias:别名 -->
+		<!-- <typeAlias type="cn.exercise.ssm.pojo.UserT" alias="user" /> -->
+
+		<!-- 批量别名定义 指定包名，mybatis自动扫描包中的po类,自动定义别名，别名就是类名(首字母大写或小写都可以) -->
+		<!-- <package name="cn.exercise.ssm.pojo"/> -->
+	</typeAliases>
+
+</configuration>
