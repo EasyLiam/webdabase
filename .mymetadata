@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="GITssm"
+  id="myeclipse.1482282361269"
+  context-root="/GITssm"
+  j2ee-spec="6.0"
+  archive="GITssm.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
